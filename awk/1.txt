@@ -1,0 +1,9 @@
+ /**
+  * 添加视频数据
+  * @param [arr] $data 提交的数    
+  */
+    public function addRow($data)
+    { 
+        $result = $this->add($data);
+        return $result;
+    }
